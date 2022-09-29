@@ -1,85 +1,16 @@
-# Discord: campi#0009
+# campi.db
 
 ![downloads](https://img.shields.io/npm/dt/campi.db) ![version](https://img.shields.io/npm/v/campi.db?color=%2351F9C0&label=version)
 
 <img src="https://nodei.co/npm/campi.db.png?downloads=true&downloadRank=true&stars=true">
 
-# campi.db
+campi.db açık kaynak kodlu bir database modülüdür ve yeterli olan tüm özellikleri barındırmaktadır.
 
-campi.db açık kaynak kodlu bir database modülüdür,
-ve yeterli olan tüm özellikleri barındırmaktadır.
+Son sürüm: 0.0.9
 
-
-## Kurulum
-```bash
-npm i campi.db@latest
-```
-
-Bunu yazdıktan sonra modülün indirilmesini bekleyiniz. Modül kurulunca main dosyanıza aşağıdaki kodu ekleyin. Benim tercihim kodun en üstüne yazın 💖
-
-```javascript
-const db = require("campi.db")
-```
-
-Eğer modül kendisi database.json dosyası oluşturmazsa elinizle database.json dosyası açın.
-Ardından içine {} yazıp bırakınız.
-
-## 0.0.8 Patch Note(s).
-
-* Artık database başlatıldığında konsola [campi.db] I am ready yazıyor.
+Author(s):
+    * campi#0009
 
 
-## Fonksiyonlar
 
-```javascript
-    yaz => set
-    db.set('prefix', '!')
-    <DB>.yaz('prefix', '!')
-```
-
-```javascript
-    depola => push
-    db.push('prefix', '!')
-    <DB>.depola('prefix', '!')
-```
-    
-```javascript
-    bul => fetch/get 
-    db.fetch('prefix')
-    <DB>.bul('prefix')
-```
-
-```javascript
-    kontrol => has
-    db.has('prefix')
-    <DB>.kontrol('prefix')
-```
-
-```javascript
-    sil => delete/remove
-    db.delete('prefix')
-    <DB>.sil('prefix')
-```
-
-```javascript
-    yedekle => backup
-    db.backup('veri.json')
-    <DB>.yedekle('veri')
-```
-    
-```javascript
-    topla => add
-    db.add('puan', 5)
-    <DB>.topla('puan', 5)
-```
-
-```javascript
-    çıkar => substr
-    db.substr('puan', 5)
-    <DB>.çıkar('puan', 5)
-```
-
-```javascript
-    sıfırla => -
-    <DB>.sıfırla()
-```
+# campi.db 1.0.0 Sürümüne ulaştığı zaman yeni güncelleme getirilmeyecektir.
