@@ -5,7 +5,7 @@
 <img src="https://nodei.co/npm/campi.db.png?downloads=true&downloadRank=true&stars=true">
 
 # campi.db
-* Last Version: 0.0.8
+
 campi.db açık kaynak kodlu bir database modülüdür,
 ve yeterli olan tüm özellikleri barındırmaktadır.
 
